@@ -1,4 +1,4 @@
-	# 💾 Synology NAS (Docker) Deployment for Counter-Strike 1.6 Server
+# 💾 Synology NAS (Docker) Deployment for Counter-Strike 1.6 Server
 
 This guide details the installation of a dedicated **Counter-Strike 1.6** server on a Synology NAS device using the **Container Manager** (formerly known as Docker).
 
@@ -13,10 +13,7 @@ This guide details the installation of a dedicated **Counter-Strike 1.6** server
 
 1.  Access your Synology administration interface (DSM), usually at `http://NAS-IP:5000`.
 2.  Open the **Package Center**.
-3.  Search for and install the **"Container Manager"** package (if you haven't already).
-4.  Once installed, open **Container Manager**.
-
-*(Image Placeholder: Add a screenshot of the Package Center showing Container Manager.)*
+3.  Search for and install the **"Container Manager"** package (if you haven't already). 4.  Once installed, open **Container Manager**.
 
 ## 2. Downloading the CS 1.6 Server Image
 
@@ -89,7 +86,7 @@ Once the container is running (visible in the "Container" tab):
 
 | Step | Description | Screenshot |
 | :--- | :--- | :--- |
-| 1 | Container Manager Installation (Placeholder) | *(Please add the URL for the Package Center screenshot here.)* |
+| 1 | Container Manager Installation (Placeholder) | **** |
 | 2 (Cont.) | Container Creation (General Settings) | ![Container General Settings](https://i.ibb.co/WWgPLkYC/2.png) |
 | 3 | Network Settings | ![Network Settings](https://i.ibb.co/pB2BpMJn/3.png) |
 | 4 | Port Mapping (27015 UDP) | ![Port Mapping Configuration](https://i.ibb.co/nq0MD5Rb/4.png) |
