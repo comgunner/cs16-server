@@ -12,6 +12,14 @@ docker run -d
 comgunner/cs16-server:latest
 ```
 
+### 🔎 Checking the Test Server Logs
+
+To quickly check the status of the running server container (`cs16-server`), view the latest 80 lines of its console output. This is crucial for verifying successful startup and diagnosing any bot or mod loading errors.
+
+```bash
+docker logs cs16-server --tail 80
+```
+
 ---
 
 A fully enhanced Counter-Strike 1.6 Dedicated Server Docker image based on  
