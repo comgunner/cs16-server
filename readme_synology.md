@@ -1,6 +1,6 @@
 # 💾 Synology NAS (Docker) Deployment for Counter-Strike 1.6 Server
 
-This guide details the installation of a dedicated **Counter-Strike 1.6** server on a Synology NAS device using the **Container Manager** (formerly known as Docker).
+[cite_start]This guide details the installation of a dedicated **Counter-Strike 1.6** server on a Synology NAS device using the **Container Manager** (formerly known as Docker)[cite: 1].
 
 ---
 
@@ -11,9 +11,18 @@ This guide details the installation of a dedicated **Counter-Strike 1.6** server
 
 ## 1. Prerequisites and Container Manager Installation
 
+### Install Docker (Container Manager) on Synology
+
+1.  Access the **Package Center** in your DSM.
+2.  [cite_start]Search for **Container Manager** (formerly known as Docker)[cite: 3].
+3.  Press the **Install** button.
+
 1.  Access your Synology administration interface (DSM), usually at `http://NAS-IP:5000`.
 2.  Open the **Package Center**.
-3.  Search for and install the **"Container Manager"** package (if you haven't already). 4.  Once installed, open **Container Manager**.
+3.  Search for and install the **"Container Manager"** package (if you haven't already).
+4.  Once installed, open **Container Manager**.
+
+*(Image Placeholder: Add a screenshot of the Package Center showing Container Manager.)*
 
 ## 2. Downloading the CS 1.6 Server Image
 
@@ -82,11 +91,23 @@ Once the container is running (visible in the "Container" tab):
 
 **_Note:_** _If you want external players to connect over the internet, you must configure **Port Forwarding** on your router, directing UDP traffic on port 27015 to your Synology's internal IP address._
 
+## ✅ Test Bots (Podbot)
+
+If your server uses Podbot, you can quickly add 6 balanced bots (3 vs 3) using RCON commands once you are connected to the server and authenticated.
+
+1.  **Authenticate RCON:** Open the console (`~`) and enter your RCON password:
+    `rcon_password YOUR_RCON_PASSWORD`
+2.  [cite_start]**Add Bots (3 T and 3 CT):** Use the specific Podbot commands to add 3 bots to each team[cite: 17, 14]:
+    `rcon pb add t 3`
+    `rcon pb add ct 3`
+3.  **Optional: Adjust Difficulty (0=Easiest, 4=Hardest):**
+    `rcon pb_detail_level 2`
+
 ## 📸 Step-by-Step Configuration Screenshots
 
 | Step | Description | Screenshot |
 | :--- | :--- | :--- |
-| 1 | Container Manager Installation (Placeholder) | **** |
+| 1 | Container Manager Installation (Placeholder) | |
 | 2 (Cont.) | Container Creation (General Settings) | ![Container General Settings](https://i.ibb.co/WWgPLkYC/2.png) |
 | 3 | Network Settings | ![Network Settings](https://i.ibb.co/pB2BpMJn/3.png) |
 | 4 | Port Mapping (27015 UDP) | ![Port Mapping Configuration](https://i.ibb.co/nq0MD5Rb/4.png) |
