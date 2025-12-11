@@ -1,0 +1,18 @@
+L 05/18/2014 - 00:30:33: -------- Mapchange to de_dust --------
+L 05/18/2014 - 00:30:33: [CSX] Could not load csstats file: cstrike/addons/amxmodx/data/csstats.dat
+L 05/18/2014 - 00:35:45: [adminchat.amxx] Chat: "NGN-FREE<0><><>" say "asd"
+L 05/18/2014 - 00:43:47: -------- Mapchange to de_dust --------
+L 05/18/2014 - 00:43:47: [CSX] Could not load csstats file: cstrike/addons/amxmodx/data/csstats.dat
+L 05/18/2014 - 00:43:48: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/ultimate_sounds.txt
+L 05/18/2014 - 00:45:50: [admincmd.amxx] Cmd: "NGN-FREE<0><><>" ask for players list
+L 05/18/2014 - 00:46:12: [adminvote.amxx] Vote: "NGN-FREE<0><><>" vote maps (map#1 "de_dust") (map#2 "de_aztec") (map#3 "") (map#4 "")
+L 05/18/2014 - 00:46:24: [adminvote.amxx] Vote: Voting failed (got "0") (needed "1")
+L 05/18/2014 - 00:52:34: -------- Mapchange to de_dust --------
+L 05/18/2014 - 00:52:34: [CSX] Could not load csstats file: cstrike/addons/amxmodx/data/csstats.dat
+L 05/18/2014 - 00:52:34: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/ultimate_sounds.txt
+L 05/18/2014 - 01:04:46: -------- Mapchange to de_dust --------
+L 05/18/2014 - 01:04:46: [CSX] Could not load csstats file: cstrike/addons/amxmodx/data/csstats.dat
+L 05/18/2014 - 01:04:46: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/ultimate_sounds.txt
+L 05/18/2014 - 01:16:08: -------- Mapchange to de_dust --------
+L 05/18/2014 - 01:16:08: [CSX] Could not load csstats file: cstrike/addons/amxmodx/data/csstats.dat
+L 05/18/2014 - 01:16:08: [AMXX] Failed to open dictionary file: cstrike/addons/amxmodx/data/lang/ultimate_sounds.txt

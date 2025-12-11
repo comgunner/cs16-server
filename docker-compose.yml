@@ -1,0 +1,16 @@
+services:
+  cs16-server:
+    build: .                       
+    image: comgunner/cs16-server   
+    platform: linux/amd64
+    container_name: cs16-server
+    restart: unless-stopped
+    # REQUIRED for Apple M1/M2/M3 (Forces x86 emulation)
+    environment:
+      - CPU_MHZ=2000
+    ports:
+      - "27015:27015"
+      - "27015:27015/udp"
+    volumes:
+      - "./server.cfg:/home/steam/cs16/cstrike/server.cfg"
+
