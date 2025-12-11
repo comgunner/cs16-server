@@ -17,6 +17,7 @@ COPY NewMods/cstrike/addons/metamod cstrike/addons/metamod
 COPY NewMods/cstrike/sound cstrike/sound
 
 # 3) Sobrescribir ESL con tu versión
+COPY server.cfg cstrike/server.cfg
 COPY esl_5on5.cfg cstrike/esl_5on5.cfg
 
 # 4) Copiar configuración de DProto al root del server
