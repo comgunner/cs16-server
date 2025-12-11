@@ -9,17 +9,11 @@ USER root
 WORKDIR /home/steam/cs16
 
 # 1) Copiar tus addons nuevos (AMXX, dproto, metamod)
-# Estructura en el host:
-#   ./NewMods/cstrike/addons/amxmodx
-#   ./NewMods/cstrike/addons/dproto
-#   ./NewMods/cstrike/addons/metamod
 COPY NewMods/cstrike/addons/amxmodx cstrike/addons/amxmodx
 COPY NewMods/cstrike/addons/dproto  cstrike/addons/dproto
 COPY NewMods/cstrike/addons/metamod cstrike/addons/metamod
 
 # 2) Copiar tus sonidos personalizados (misc, female, etc.)
-# Estructura en el host:
-#   ./NewMods/cstrike/sound/...
 COPY NewMods/cstrike/sound cstrike/sound
 
 # 3) Sobrescribir ESL con tu versión
@@ -34,3 +28,7 @@ RUN chown -R steam:steam /home/steam/cs16
 # Volvemos al usuario original que usa la imagen
 USER steam
 WORKDIR /home/steam/cs16
+
+# Mapa inicial
+CMD ./hlds_run -game cstrike -strictportbind -autoupdate -ip 0.0.0.0 +sv_lan 1 +map de_dust2 -maxplayers 32
+
